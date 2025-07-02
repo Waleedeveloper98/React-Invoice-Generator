@@ -1,0 +1,193 @@
+.invoice-form-container {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1024px) {
+  .invoice-form-container {
+    width: 50%;
+  }
+}
+
+.invoice-form {
+  width: 100%;
+}
+
+.section-divider {
+  width: 100%;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.section-divider-spaced {
+  margin-top: 0.5rem;
+}
+
+.section-divider-items {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.field-flex {
+  flex: 1;
+}
+
+.field-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.field-input {
+  font-size: 0.875rem;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.field-input:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.field-textarea {
+  font-size: 0.875rem;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  resize: none;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.field-textarea:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .field-row {
+    flex-direction: row;
+  }
+}
+
+.item-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+@media (min-width: 640px) {
+  .item-input-row {
+    flex-direction: row;
+  }
+}
+
+.add-item-button {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #2563eb;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.add-item-button:hover {
+  background-color: #1d4ed8;
+}
+
+.items-title {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.no-items-text {
+  color: #6b7280;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.invoice-form-container .item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.item-name {
+  font-weight: 500;
+  margin: 0;
+}
+
+.item-calculation {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.delete-button {
+  color: #ef4444;
+  padding: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.delete-button:hover {
+  color: #dc2626;
+}
